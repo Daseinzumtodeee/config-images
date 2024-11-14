@@ -1,0 +1,26 @@
+"use client";
+import { CustomerListWithCalendar } from "@/components";
+import React from "react";
+import Image from "next/image";
+
+const MappingPage: React.FC = () => {
+  // Add your mapping logic here
+
+  return (
+    <div>
+      <Image
+              src="https://img.pikbest.com/origin/09/19/03/61zpIkbEsTGjk.jpg!w700wp"
+              
+              alt="chicken"
+              className="w-10 h-10 rounded-full"
+              width={500}
+              height={500}
+            />
+      <div className="p-4">
+        <CustomerListWithCalendar />
+      </div>
+    </div>
+  );
+};
+
+export default MappingPage;
